@@ -430,6 +430,10 @@ header img {
   margin: 10px 0 5px;
 }
 
+#modal-text p {
+  font-size: 14px;
+}
+
 #work-experience {
   padding-top: 125px;
   padding-bottom: 125px;
