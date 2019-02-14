@@ -1,0 +1,24 @@
+<script type='text/javascript'>
+    function passwordCheck() {
+        var password = prompt("Please enter the password.");
+        if(password=='livewire'){
+            return
+        }
+        else if (password === null) {
+            window.location="/invalid/";
+        }
+        else {
+            while(password !=='123') {
+                password = prompt("Incorrect password. Please enter the password.");
+                if(password === null) {
+                    window.location="/invalid/";
+                    return
+                }
+            }
+            return
+        }
+    }
+    passwordCheck();
+</script>
+
+<h1>hi</h1>
