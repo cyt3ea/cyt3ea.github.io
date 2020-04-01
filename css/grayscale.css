@@ -492,6 +492,13 @@ header img {
   color: #004b9b;
 }
 
+#bigtuna .carousel-indicators li {
+  border: 1px solid #72beff;
+}
+#bigtuna .carousel-indicators .active {
+  background-color: #72beff;
+}
+
 #contact {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
