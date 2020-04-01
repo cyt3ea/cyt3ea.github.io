@@ -446,15 +446,27 @@ header img {
 #work-experience {
   padding-top: 125px;
   padding-bottom: 125px;
-  background-color: whitesmoke;
+  background-color: white;
   color: black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+#work-experience p {
+  font-size: 16px;
+}
+
 #contact {
-      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #about {
-      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#about p {
+  font-size: 16px;
+}
+
+#portfolio {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
