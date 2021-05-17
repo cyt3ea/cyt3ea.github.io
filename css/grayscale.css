@@ -481,6 +481,7 @@ header img {
 #yadon #row-description {
   display: flex;
   align-items: center;
+  margin-top: 30px;
 }
 
 #bigtuna #col-description p {
@@ -536,7 +537,7 @@ header img {
 }
 
 .work-experience-row {
-  display: flex;
+  padding: 30px;
 }
 
 .work-experience-img {
