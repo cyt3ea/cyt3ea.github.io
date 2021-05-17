@@ -455,17 +455,19 @@ header img {
   font-size: 16px;
 }
 
-#bigtuna {
+#bigtuna, #yadon {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#bigtuna #header {
+#bigtuna #header,
+#yadon #header {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#bigtuna #container {
+#bigtuna #container,
+#yadon #container {
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -476,11 +478,22 @@ header img {
   align-items: center;
 }
 
+#yadon #row-description {
+  display: flex;
+  align-items: center;
+}
+
 #bigtuna #col-description p {
   font-size: 15.5px;
 }
 
-#bigtuna .carousel-control {
+#yadon #row-description p {
+  font-size: 15px;
+  margin: 0px;
+}
+
+#bigtuna .carousel-control.
+#yadon .carousel-control {
   background-image: none;
 }
 
@@ -497,6 +510,13 @@ header img {
 }
 #bigtuna .carousel-indicators .active {
   background-color: #72beff;
+}
+
+#yadon .carousel-indicators li {
+  border: 1px solid #5969e1;
+}
+#yadon .carousel-indicators .active {
+  background-color: #5969e1;
 }
 
 #contact {
