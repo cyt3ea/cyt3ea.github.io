@@ -514,3 +514,17 @@ header img {
 #portfolio {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.work-experience-row {
+  display: flex;
+}
+
+.work-experience-img {
+  margin-right: 20px;
+}
+
+.work-experience-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
